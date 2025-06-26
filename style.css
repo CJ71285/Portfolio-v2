@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+.hero-section {
+  background-color: #e1ebe8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud-right {
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.cloud-left {
+  margin-right: 500px;
+}
+
+.profile-picture1 {
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 800px;
+  align-items: center;
+}
+
+.navlinks {
+  position: relative;
+  margin-left: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 200px;
+}
+
+.introsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture2 {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.paragraph1 {
+  width: 40%;
+}
+
+.cando-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cando-section {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cando-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.paragraph2 {
+  width: 40%;
+}
+
+.design {
+  display: flex;
+}
