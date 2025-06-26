@@ -87,8 +87,11 @@ body {
 
 .cando-box {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+}
+
+.whaticando {
+  text-align: center;
+  color: rgb(21, 144, 128);
 }
 
 .cando-section {
@@ -96,14 +99,32 @@ body {
   justify-content: center;
 }
 
+.imagedescription {
+  flex-direction: row;
+}
+
 .cando-image {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
+}
+
+.designwyw {
+  text-align: center;
+
+  color: rgb(21, 144, 128);
 }
 
 .paragraph2 {
   width: 40%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.519);
+}
+
+.design-para {
+  display: flex;
+  justify-content: center;
 }
 
 .design {
