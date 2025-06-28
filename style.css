@@ -30,6 +30,7 @@ body {
   font-family: "Brush Script MT", cursive;
   font-size: 80px;
   color: rgb(10, 132, 112);
+  text-shadow: 2px 4px 5px grey;
 }
 
 .job-title {
@@ -94,7 +95,7 @@ body {
 
 .cando-image {
   height: 100px;
-  width: 100px;
+  max-width: 100%;
   border-radius: 50%;
 }
 
@@ -123,9 +124,9 @@ body {
 }
 
 .designBox {
-  justify-content: center;
-  flex-wrap: wrap;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-layout {
@@ -144,6 +145,9 @@ body {
 
 .pic3 {
   margin-left: 300px;
+  float: left;
+  max-width: 100%;
+  height: auto;
 }
 
 .develop-heading {
